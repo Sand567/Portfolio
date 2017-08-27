@@ -1,5 +1,5 @@
 .header-section {
-	font-family: Century Gothic;
+	font-family: 'Ubuntu', sans-serif;
 	background-color: #7FD4FB;
 	padding-top: 10px;
 	padding-left: 50px;
@@ -20,7 +20,7 @@ img {
 }
 
 .footer-section {
-	font-family: Century Gothic;
+	font-family: 'Ubuntu', sans-serif;
 	background-color: #7FD4FB;
 	padding-right: 50px;
 	padding-left: 50px;
@@ -29,7 +29,7 @@ img {
 }
 
 .skills-section {
-	font-family: Century Gothic;
+	font-family: 'Ubuntu', sans-serif;
 	background-color: white;
 	padding-right: 50px;
 	padding-left: 100px;
@@ -37,7 +37,7 @@ img {
 }
 
 .project-section {
-	font-family: Century Gothic;
+	font-family: 'Ubuntu', sans-serif;
 	background-color: #7FD4FB;
 	padding-bottom: 20px;
 	padding-left: 150px;
@@ -45,11 +45,11 @@ img {
 }
 
 .experience-section {
-	font-family: Century Gothic;
+	font-family: 'Ubuntu', sans-serif;
 }
 
 .copyright-section {
-	font-family: Century Gothic;
+	font-family: 'Ubuntu', sans-serif;
 	padding-top: 20px;
 	padding-bottom: 20px;
 }
