@@ -1,0 +1,81 @@
+.header-section {
+	font-family: Century Gothic;
+	background-color: #7FD4FB;
+	padding-top: 10px;
+	padding-left: 50px;
+	padding-right: 50px;
+}
+
+img {
+	height: 150px;
+	width: 150px;
+}
+
+.name {
+	color: black;
+}
+
+.designation {
+	color: #181818;
+}
+
+.footer-section {
+	font-family: Century Gothic;
+	background-color: #7FD4FB;
+	padding-right: 50px;
+	padding-left: 50px;
+	padding-top: 30px;
+	padding-bottom: 30px;
+}
+
+.skills-section {
+	font-family: Century Gothic;
+	background-color: white;
+	padding-right: 50px;
+	padding-left: 100px;
+	padding-bottom: 20px;
+}
+
+.project-section {
+	font-family: Century Gothic;
+	background-color: #7FD4FB;
+	padding-bottom: 20px;
+	padding-left: 150px;
+	padding-right: 50px;
+}
+
+.experience-section {
+	font-family: Century Gothic;
+}
+
+.copyright-section {
+	font-family: Century Gothic;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+.address-section {
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+.link {
+	padding-left: 50px;
+	padding-right: 50px;
+	color: black;
+	transition: all .5s ease-in-out;
+}
+
+.link:hover {
+	transform: scale(1.5);
+}
+
+.seperatorStyle {
+	height: 20px;
+	width: 35%;
+}
+
+.navbar-brand {
+	padding-top: 20px;
+	background-color: #7FD4FB;
+}
