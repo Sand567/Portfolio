@@ -49,14 +49,14 @@ var projects_array = [
 	{
 		name: 'Todo Application',
 		language: 'MEAN Stack',
-		info: 'Developed a Todo application using the MEAN stack to add, delete and update todos that the user enters',
+		info: 'Developed a Todo application using the MEAN stack to add, delete and update todos that the user enters. Used MongoDB and Mongoose to setup the schema and the database which was used to store, modify and remove todos.',
 		start: 'Jun 2017',
 		end: 'Jul 2017'		
 	},
 	{
 		name: 'Weather Forecast Application',
 		language: 'Angular JS',
-		info: 'Developed an Angular JS Weather Application which gives us the 7-day weather forecast based upon city we enter.',
+		info: 'Developed an Angular JS Weather Application which gives us the 7-day weather forecast based upon city we enter. Made use of custom directives, services and bootstrap and get the data and display. ',
 		start: 'Jul 2017',
 		end: 'Aug 2017'	
 	}
