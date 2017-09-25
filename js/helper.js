@@ -1,4 +1,4 @@
-var skills = '<div class="col-md-2"><img src="./images/%data%.png" alt="" class="img-responsive img-circle"></div>';
+var skills = '<div class="col-md-2 col-sm-6"><img src="./images/%data%.png" alt="" class="img-responsive img-circle"></div>';
 var skills_array = ['1', '2', '3', '4', '5', '6', '7', '8', '9', '10', '11', '12'];
 
 var skills_new = '';
