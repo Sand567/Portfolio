@@ -12,27 +12,27 @@ var projects = '<li style="list-style-type: none"><h3 style="padding-left: 88px;
 
 var projects_array = [
 	{
-		name: 'Sorting Giga Bytes of Data',
-		language: 'Spark and Hadoop',
+		name: 'Video Player',
+		language: 'React',
+		info: 'Developed a React+Redux Weather application which gives us the statistics for temperature, pressure and humidity as a graph. Made use of Weather API to get weather data as JSON/XML then fine-tuned with Bootstrap',
+		start: 'Sept 2017',
+		end: 'Oct 2017'
+	},
+	{
+		name: 'Weather App',
+		language: 'React and Redux',
 		info: 'The aim of this project was to sort a Giga byte of data and to design an algorithm to sort big data and check the performance of the sorting algorithm on the Amazon AWS cloud. Here too measured the Latency and time taken to sort.Made use of Hadoop and Spark to sort Giga bytes of data for 1 node and 16 nodes.',
-		start: 'Mar 2016',
-		end: 'Apr 2016'
+		start: 'Sept 2017',
+		end: 'Oct 2017'
 	},
 	{
-		name: 'Twitter Friend Analysis',
-		language: 'Python',
-		info: 'Used Python as the primary programming language to conduct our research on Twitter. Found out followers/friends/users based on a particular time frame and plotted a graph which showed all the followers of a friend and friends of friend.',
-		start: 'Aug 2016',
-		end: 'Sept 2016'
+		name: 'YelpCamp',
+		language: 'Node JS',
+		info: 'Developed an application which is similar to Yelp where I made use of Express, Node JS, Bootstrap and MongoDB by adding functionality to the routes.Features to add, remove and update campgrounds to Yelp using MongoDB. Made use of body-parser and EJS for parsing and templating. Made HTTP GET and POST requests using the RESTful API services. Each user can add comments about each campground based upon their likes or dislikes.',
+		start: 'Aug 2017',
+		end: 'Oct 2017'
 	},
-	{
-		name: 'Web Application Design',
-		language: 'Java, MongoDB, MySQL, HTML, CSS, JSP, Servlets, Javascript',
-		info: 'Designed a website which is like an ecommerce web portal using Java Servlets, JSP, Java Beans, MySQL and MongoDB where customer can choose from a list of products and place an order of their choice. Reviews and ratings for a product were also implemented. Search bar implemented using AJAX.Designed Restaurant web application through which we can book tables and track orders.',
-		start: 'Aug 2016',
-		end: 'Dec 2016'	
-	},
-	{
+		{
 		name: 'Mobile Application Development',
 		language: 'Android Studio, Java',
 		info: 'Designed an application which shows us the list of all US state officials based on the location that we type in and starts off with the current location. API call is made to gather the data from the internet in a JSON format and displaying details related to each official.Designed app which holds multiple notes which too can be published and run on any Android Device.Designed an app which gives us live information related to stocks downloading data in parallel and displaying it.',
@@ -59,6 +59,27 @@ var projects_array = [
 		info: 'Developed an Angular JS Weather Application which gives us the 7-day weather forecast based upon city we enter. Made use of custom directives, services and bootstrap and get the data and display. ',
 		start: 'Jul 2017',
 		end: 'Aug 2017'	
+	},
+	{
+		name: 'Sorting Giga Bytes of Data',
+		language: 'Spark and Hadoop',
+		info: 'The aim of this project was to sort a Giga byte of data and to design an algorithm to sort big data and check the performance of the sorting algorithm on the Amazon AWS cloud. Here too measured the Latency and time taken to sort.Made use of Hadoop and Spark to sort Giga bytes of data for 1 node and 16 nodes.',
+		start: 'Mar 2016',
+		end: 'Apr 2016'
+	},
+	{
+		name: 'Twitter Friend Analysis',
+		language: 'Python',
+		info: 'Used Python as the primary programming language to conduct our research on Twitter. Found out followers/friends/users based on a particular time frame and plotted a graph which showed all the followers of a friend and friends of friend.',
+		start: 'Aug 2016',
+		end: 'Sept 2016'
+	},
+	{
+		name: 'Web Application Design',
+		language: 'Java, MongoDB, MySQL, HTML, CSS, JSP, Servlets, Javascript',
+		info: 'Designed a website which is like an ecommerce web portal using Java Servlets, JSP, Java Beans, MySQL and MongoDB where customer can choose from a list of products and place an order of their choice. Reviews and ratings for a product were also implemented. Search bar implemented using AJAX.Designed Restaurant web application through which we can book tables and track orders.',
+		start: 'Aug 2016',
+		end: 'Dec 2016'	
 	}
 ];
 
