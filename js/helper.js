@@ -14,14 +14,14 @@ var projects_array = [
 	{
 		name: 'Video Player',
 		language: 'React',
-		info: 'Developed a React+Redux Weather application which gives us the statistics for temperature, pressure and humidity as a graph. Made use of Weather API to get weather data as JSON/XML then fine-tuned with Bootstrap',
+		info: 'Developed a React Video player application+Bootstrap making use of the YouTube API’s. Made API calls to get the top 5 videos for the search term that the user types in. JSON/XML response from the API call is then rendered.',
 		start: 'Sept 2017',
 		end: 'Oct 2017'
 	},
 	{
 		name: 'Weather App',
 		language: 'React and Redux',
-		info: 'The aim of this project was to sort a Giga byte of data and to design an algorithm to sort big data and check the performance of the sorting algorithm on the Amazon AWS cloud. Here too measured the Latency and time taken to sort.Made use of Hadoop and Spark to sort Giga bytes of data for 1 node and 16 nodes.',
+		info: 'Developed a React+Redux Weather application which gives us the statistics for temperature, pressure and humidity as a graph. Made use of Weather API to get weather data as JSON/XML then fine-tuned with Bootstrap.',
 		start: 'Sept 2017',
 		end: 'Oct 2017'
 	},
@@ -31,20 +31,6 @@ var projects_array = [
 		info: 'Developed an application which is similar to Yelp where I made use of Express, Node JS, Bootstrap and MongoDB by adding functionality to the routes.Features to add, remove and update campgrounds to Yelp using MongoDB. Made use of body-parser and EJS for parsing and templating. Made HTTP GET and POST requests using the RESTful API services. Each user can add comments about each campground based upon their likes or dislikes.',
 		start: 'Aug 2017',
 		end: 'Oct 2017'
-	},
-		{
-		name: 'Mobile Application Development',
-		language: 'Android Studio, Java',
-		info: 'Designed an application which shows us the list of all US state officials based on the location that we type in and starts off with the current location. API call is made to gather the data from the internet in a JSON format and displaying details related to each official.Designed app which holds multiple notes which too can be published and run on any Android Device.Designed an app which gives us live information related to stocks downloading data in parallel and displaying it.',
-		start: 'Jan 2017',
-		end: 'May 2017'	
-	},
-	{
-		name: 'Dashboard Application',
-		language: 'Javascript, Bootstrap, ES6',
-		info: 'Developed a prototype of an application for an Internet provider. Structured the overall design using various diagrams such as Use case diagrams, Class Diagrams, Activity Diagrams, Sequence Diagrams. Apply design patterns for building the prototype of the application.Configured dashboard which displays charts for the users using chart.js and dataframe.js based on some filters and criteria that the user applies on the data. Narrowing the data and displaying charts for the data filtered.',
-		start: 'Jan 2017',
-		end: 'May 2017'			
 	},
 	{
 		name: 'Todo Application',
@@ -61,11 +47,18 @@ var projects_array = [
 		end: 'Aug 2017'	
 	},
 	{
-		name: 'Sorting Giga Bytes of Data',
-		language: 'Spark and Hadoop',
-		info: 'The aim of this project was to sort a Giga byte of data and to design an algorithm to sort big data and check the performance of the sorting algorithm on the Amazon AWS cloud. Here too measured the Latency and time taken to sort.Made use of Hadoop and Spark to sort Giga bytes of data for 1 node and 16 nodes.',
-		start: 'Mar 2016',
-		end: 'Apr 2016'
+		name: 'Mobile Application Development',
+		language: 'Android Studio, Java',
+		info: 'Designed an application which shows us the list of all US state officials based on the location that we type in and starts off with the current location. API call is made to gather the data from the internet in a JSON format and displaying details related to each official.Designed app which holds multiple notes which too can be published and run on any Android Device.Designed an app which gives us live information related to stocks downloading data in parallel and displaying it.',
+		start: 'Jan 2017',
+		end: 'May 2017'	
+	},
+	{
+		name: 'Dashboard Application',
+		language: 'Javascript, Bootstrap, ES6',
+		info: 'Developed a prototype of an application for an Internet provider. Structured the overall design using various diagrams such as Use case diagrams, Class Diagrams, Activity Diagrams, Sequence Diagrams. Apply design patterns for building the prototype of the application.Configured dashboard which displays charts for the users using chart.js and dataframe.js based on some filters and criteria that the user applies on the data. Narrowing the data and displaying charts for the data filtered.',
+		start: 'Jan 2017',
+		end: 'May 2017'			
 	},
 	{
 		name: 'Twitter Friend Analysis',
@@ -80,6 +73,13 @@ var projects_array = [
 		info: 'Designed a website which is like an ecommerce web portal using Java Servlets, JSP, Java Beans, MySQL and MongoDB where customer can choose from a list of products and place an order of their choice. Reviews and ratings for a product were also implemented. Search bar implemented using AJAX.Designed Restaurant web application through which we can book tables and track orders.',
 		start: 'Aug 2016',
 		end: 'Dec 2016'	
+	},
+	{
+		name: 'Sorting Giga Bytes of Data',
+		language: 'Spark and Hadoop',
+		info: 'The aim of this project was to sort a Giga byte of data and to design an algorithm to sort big data and check the performance of the sorting algorithm on the Amazon AWS cloud. Here too measured the Latency and time taken to sort.Made use of Hadoop and Spark to sort Giga bytes of data for 1 node and 16 nodes.',
+		start: 'Mar 2016',
+		end: 'Apr 2016'
 	}
 ];
 
