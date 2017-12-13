@@ -26,6 +26,13 @@ var projects_array = [
 		end: 'Oct 2017'
 	},
 	{
+		name: 'Blog App',
+		language: 'React and Redux',
+		info: 'Developed a React and Redux Blog application. Which had the feature to add, remove and update blogs to and from the backend API. Made use of React Router to navigate between different pages of the application. Added authorization checks by using bootstrap',
+		start: 'Oct 2017',
+		end: 'Nov 2017'
+	},
+	{
 		name: 'YelpCamp',
 		language: 'Node JS',
 		info: 'Developed an application which is similar to Yelp where I made use of Express, Node JS, Bootstrap and MongoDB by adding functionality to the routes.Features to add, remove and update campgrounds to Yelp using MongoDB. Made use of body-parser and EJS for parsing and templating. Made HTTP GET and POST requests using the RESTful API services. Each user can add comments about each campground based upon their likes or dislikes.',
